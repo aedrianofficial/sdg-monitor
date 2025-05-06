@@ -15,14 +15,18 @@ class DatabaseSeeder extends Seeder
      */
    // database/seeders/DatabaseSeeder.php
 
-public function run(): void
-{
-    $this->call([
-        RoleSeeder::class,
-        UserSeeder::class,
-        UserProfileSeeder::class,
-        UserRoleSeeder::class,
-    ]);
-}
+    public function run(): void
+    {
+        $this->call([
+            // RoleSeeder::class,
+            // UserSeeder::class,
+            // UserProfileSeeder::class,
+            // UserRoleSeeder::class,
+            // SdgSeeder::class,
+            // SdgSubCategorySeeder::class,
+            // ResearchStatusSeeder::class,
+            // uncomment the above lines to seed the respective tables  
+        ]);
+    }
 
 }
