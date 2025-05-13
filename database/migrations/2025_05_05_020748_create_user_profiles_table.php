@@ -15,7 +15,6 @@ return new class extends Migration
             $table->uuid('id')->primary(); // UUID as the primary key
             $table->uuid('user_id'); // Foreign key to users table
             $table->string('first_name');
-            $table->string('middle_initial', 1)->nullable(); // Middle initial (nullable)
             $table->string('last_name');
             $table->date('date_of_birth');
             $table->timestamps();

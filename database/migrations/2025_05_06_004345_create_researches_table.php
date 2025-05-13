@@ -17,6 +17,7 @@ return new class extends Migration
             $table->uuid('research_status_id');
             $table->string('title');
             $table->text('abstract')->nullable();
+            $table->text('description')->nullable();
             $table->date('date_conducted')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
